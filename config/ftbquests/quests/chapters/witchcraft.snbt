@@ -160,7 +160,7 @@
 			tasks: [{
 				count: 6L
 				id: "530F0C6FDEDA819E"
-				item: { count: 6, id: "enchanted:altar" }
+				item: { count: 1, id: "enchanted:altar" }
 				type: "item"
 			}]
 			x: 0.0d

@@ -1,0 +1,31 @@
+#快递消失时间（分钟），支持小数，最小3分钟
+# Default: 8.0
+# Range: 3.0 ~ 15.0
+deliveryDisappearTime = 8.0
+#拦截概率（百分比）
+# Default: 15
+# Range: 0 ~ 100
+interceptChance = 15
+#劫匪最小生成数量
+# Default: 3
+# Range: 3 ~ 6
+banditMinCount = 3
+#劫匪最大生成数量
+# Default: 6
+# Range: 6 ~ 15
+banditMaxCount = 6
+#劫匪MOB池配置，格式: modid:entity_id,权重,是否发光(可选)
+#示例:
+#  minecraft:pillager,40,true
+#  youmod:your_bandit,50,true
+banditMobPool = ["minecraft:pillager,30,true", "minecraft:vindicator,30,true", "minecraft:witch,20,true", "minecraft:evoker,10,true"]
+#是否在每次生成劫匪时重载MOB池配置
+reloadMobPoolOnSpawn = true
+#启用调试日志输出
+enableDebugLogs = false
+#启用信息日志输出
+enableInfoLogs = false
+#启用警告日志输出
+enableWarnLogs = false
+#启用错误日志输出
+enableErrorLogs = true

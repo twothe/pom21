@@ -82,7 +82,7 @@
 				{
 					count: 8L
 					id: "4915A54523053C56"
-					item: { count: 8, id: "ars_nouveau:arcane_pedestal" }
+					item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
 					type: "item"
 				}
 			]

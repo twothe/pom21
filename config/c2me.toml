@@ -159,8 +159,6 @@ globalExecutorParallelism = "default"
 	#  
 	# Incompatible with Dimensional Threading (dimthread)
 	# 
-	# Set to -1 for the following reasons: 
-	# Incompatible with dimthread@1.2.1 (*) (defined in c2me) 
 	midTickChunkTasksInterval = "default"
 
 	[generalOptimizations.autoSave]

@@ -12,10 +12,12 @@
 	chapter.64AB0FFBD69E7738.title: "Oritech"
 	chapter.6F05C4515D106F36.title: "Getting Started"
 	chapter.773F3EAA4ADC82B9.title: "PSI"
+	chapter.7BCC04609D1A692A.title: "Tipps \\& Tricks"
 	chapter_group.00DDA81571B1A656.title: "Technical"
 	chapter_group.180E3D75CA180959.title: "Misc"
 	chapter_group.27D7B48DC20348F5.title: "General"
 	chapter_group.313A5BA10E25CEAE.title: "Magical"
+	chapter_group.64DAB39C41910626.title: "Bedrock Challenge"
 	quest.00F0AFF784778C79.quest_desc: ["Tools can have various upgrades, which are the core concept of this mod."]
 	quest.010C2A7911EACC70.quest_desc: [
 		"To get started you need a Town Hall block and a Build tool. Use the tool to select the desired style and placement of your Town Hall, which acts as the very center of your new village."
@@ -32,9 +34,17 @@
 	quest.0114E68ADCF672BD.title: "Guidebook"
 	quest.021624F76B7E6262.quest_desc: ["Campfires provide a healing buff in close proximity, and also prevent natural, hostile mob spawning in a 3 chunk radius."]
 	quest.021624F76B7E6262.title: "Stay a while, and listen..."
+	quest.03AD5CDA07B0CC98.quest_desc: [
+		"There is nothing here either... or is there?"
+		""
+		"There is no fortress or bastion or anything like that though."
+	]
+	quest.03AD5CDA07B0CC98.title: "Nether?"
 	quest.046DEB2CB02B88B9.quest_desc: ["You can build an aircraft if you need to get somewhere fast."]
 	quest.08EAAFCB625AB922.quest_desc: ["People need food, and you need to provide."]
 	quest.09B3C4098ECA222C.quest_desc: ["More output for less input."]
+	quest.0C5C494EC00CC348.quest_desc: ["Wandering traders can be summoned by right-clicking on a bell with an emerald."]
+	quest.0C5C494EC00CC348.title: "Traders"
 	quest.0C633C2D1924666D.quest_desc: ["Blazegold tools can be repaired by throwing them in lava. The hoe also creates some very special farmland."]
 	quest.0F27E23F762C3E1B.title: "Rotational Energy"
 	quest.0FBF5BD9F6466BD8.quest_desc: ["Create the Enchanted Cauldron by applying Anointing Paste to a regular Minecraft Cauldron."]
@@ -80,6 +90,16 @@
 	quest.2790E8E91E7C9536.quest_desc: ["Required to assemble a full CAD. Coloring is optional."]
 	quest.28F981DB60F0D5D3.quest_desc: ["Spell Turrets allow you to apply a spell to a location. With those you can automatigcally cast any spell you could cast with a book."]
 	quest.2A8B0AB8A1CCD5B6.title: "Intermediate Wizard"
+	quest.2AF6D90483ABD717.quest_desc: [
+		"This guide will assist you, but will not reveal all details for you. It is partially a puzzle challenge after all. You can freely ignore all quests here if you want to figure things out yourself."
+		""
+		"General hints:"
+		"1. Vanilla Minecraft mechanics are useful."
+		"2. Exploration is part of the challenge."
+		"3. Most structures are disabled."
+		"4. JEI is your best friend."
+		"5. If it would involve massive grind, there is probably an easier way."
+	]
 	quest.2D33502DFC4F2E3E.quest_desc: ["Breaks all connected ores at once."]
 	quest.3003D6D9B913969B.quest_desc: [
 		"The altar draws energy from nature, so make sure to place it with lots of plantmatter around."
@@ -125,6 +145,8 @@
 	quest.4AA44E56374DA4AC.title: "Phantoms?"
 	quest.4B06E6DE39266F28.title: "Master Wizard"
 	quest.4CA5792BD3734DCC.quest_desc: ["Many items are also available from Villager trades. Place an Arcane Core as a workstation to convert a villager into a Wizard trader."]
+	quest.4E8ADC0D25058E76.quest_desc: ["A mob farm is probably a good start."]
+	quest.4E8ADC0D25058E76.title: "Mobfarm?"
 	quest.51A5EA82411A9851.quest_desc: ["These will recombine into new items. Place the Brazier below the Incubator, and the Vessels nearby."]
 	quest.51A5EA82411A9851.title: "Combining"
 	quest.529D22007D2FAF2C.quest_desc: [
@@ -138,10 +160,14 @@
 	quest.5448BBD2A28CD340.title: "Basic Assembly"
 	quest.54CEDF49D7C17436.quest_desc: ["Required to assemble your CAD."]
 	quest.550BB7D41DDB27AB.quest_desc: ["Celestigem items use RF instead of durability."]
+	quest.555F2C8FF1563D51.quest_desc: ["Ars Nouveau is probably a good start."]
+	quest.555F2C8FF1563D51.title: "Ars Nouveau"
 	quest.556C79C98DA95019.quest_desc: ["Powerful, yet power-hungry machines."]
 	quest.556C79C98DA95019.title: "Mekanism"
 	quest.5603365D39B3DCBE.quest_desc: ["Everyone has to eat. And you can't let them eat steak all day long... how barbaric!"]
 	quest.5603365D39B3DCBE.title: "Chef"
+	quest.565483ECEA934AD7.quest_desc: ["Create is probably a good start."]
+	quest.565483ECEA934AD7.title: "Create?"
 	quest.5712254CB7867203.quest_desc: [
 		"True power does not come by easily, it requires hard work, and iron dedication."
 		""
@@ -166,16 +192,28 @@
 	quest.5A6809ECBE75AE42.title: "Basic Machinery"
 	quest.5C192B4CF6416095.quest_desc: ["Farmer's Delight allows you to make some more nurishing food. Entirely optional though."]
 	quest.5C192B4CF6416095.title: "Food and Drinks"
+	quest.6067F563634B2144.quest_desc: [
+		"To start the Bedrock Challenge, you need to start a new world and select World Type \"Bedrock Challenge\""
+		""
+		"Quests in this category are only relevant if you play that challenge."
+		""
+		"In the Bedrock challenge all worlds consist of mostly Bedrock. You need to figure out how to get resources and progress with almost nothing. It tries to not include massive grind, but it will expect you to be creative and know Minecraft mechanics well."
+	]
+	quest.6067F563634B2144.title: "How?"
 	quest.60D7075223DC5253.quest_desc: [
 		"Sooner or later you run out of space. That's where the guard tower comes in! "
 		"It will expand the size of your village, depending on it's level."
 		""
 		"Guards will need weapons and armor. They can use anything you could, so feel free to dress them as you like."
 	]
+	quest.61C0798BEE700C4C.quest_desc: ["5 Villagers together will spawn an Iron Golem."]
+	quest.61C0798BEE700C4C.title: "Iron Farm?"
 	quest.61DFFFA1D72A97B6.title: "World's most famous Dragon slayer"
 	quest.62B34B621F6A4074.quest_desc: ["Rituals allow you to apply magic to larger areas, or cause effects that otherwise would be impossible."]
 	quest.636656A73C364CB1.quest_desc: ["As fly as you can get."]
 	quest.636656A73C364CB1.title: "The Secret to Flight are Wings"
+	quest.63B8678CBF06C145.quest_desc: ["Gold? Gold!"]
+	quest.63B8678CBF06C145.title: "Mob Farm again?"
 	quest.643EC421FDE54EEC.quest_desc: ["The \"wrench\" of Ars Nouveau. Useful to tell things what to do and where to do it."]
 	quest.6624695B97A3BC82.quest_desc: ["These are very important crafting materials to get the altar, and for Cauldron brewing."]
 	quest.6624695B97A3BC82.title: "Condensed Power"
@@ -186,6 +224,8 @@
 		"Potions do stack btw, so feel free to stock up."
 	]
 	quest.67F0DCAC90D6060F.quest_desc: ["Final tier, requires resources from an Ancient City."]
+	quest.6859525ED3369D73.quest_desc: ["Bedrock cannot be destroyed, but there are ways to get deep. There are some structures below Bedrock."]
+	quest.6859525ED3369D73.title: "Digging?"
 	quest.6861E042E856AEB5.quest_desc: [
 		"The most basic casting implement."
 		""
@@ -206,12 +246,16 @@
 	quest.6CB67D941748FF9B.title: "Enchanting Wizard"
 	quest.6CD8D411C61216F8.quest_desc: ["Lots of things need to be researched before you can build them, or can be improved through research. "]
 	quest.6D600AA0FA82A728.quest_desc: ["People will need a place to sleep, eat, and relax. A tavern is a good start."]
+	quest.7081BF4A6C15F8B4.quest_desc: ["They do have really useful trades! And cats! What else do you need?"]
+	quest.7081BF4A6C15F8B4.title: "Villagers?"
 	quest.70B07E969E0206E8.quest_desc: ["Use Mutandis on a regular Sapling for a chance to get various other plants from the mod, most importantly Rowan saplings."]
 	quest.70B07E969E0206E8.title: "Mutandis"
 	quest.714172EF010F4900.quest_desc: ["Source is used in place of your mana if you use magical devices. Make sure you have a solid generation going on before you begin larger automation projects."]
 	quest.714172EF010F4900.title: "The Source of It"
 	quest.719DE7CD3F936145.quest_desc: ["Be careful: the caves are dark and full of terrors!"]
 	quest.719DE7CD3F936145.title: "Ironing Things Out"
+	quest.72BF5D1A88CA2826.quest_desc: ["Wow! Nothing can stop you, obviously!"]
+	quest.72BF5D1A88CA2826.title: "Completed?"
 	quest.730880E9FDD8D4CF.quest_desc: ["Your personal pocket RF generator. Add fuel and it charges whatever is in your inventory."]
 	quest.74F73BF124DF4AB1.quest_desc: [
 		"With the Blink spell and warp scrolls you can create a portal network that allows you to travel through the world at a much faster pace."
@@ -219,6 +263,8 @@
 		"Also it's always a great idea to have a scroll to get back home with you."
 	]
 	quest.74F73BF124DF4AB1.title: "Thinking With Portals"
+	quest.77073640A70FA41E.quest_desc: ["There is a dragon to slay... nothing else."]
+	quest.77073640A70FA41E.title: "End?"
 	quest.77186C36B76F35DB.quest_desc: [
 		"Why do the work, if you can just hire people to do it for you?"
 		""
@@ -254,8 +300,12 @@
 	reward.3F9E00E480E4504F.title: "Trader"
 	reward.5DD793D68AC4A814.title: "Oritech"
 	reward.70FCF179FC1D8B7A.title: "Create"
+	task.0133A392B29241B9.title: "Digging?"
 	task.3B8012C0293FCF5E.title: "End"
+	task.438A006C3F7BA6CA.title: "But really: how?"
+	task.48B980A868526796.title: "How?"
 	task.4F04E4E925B64800.title: "Sophisticated Storage Chest"
 	task.796D86E9D3B53ABB.title: "Iron Ingots"
 	task.7C123D19369AAD3A.title: "Nether"
+	task.7C52A5E3C5550714.title: "End?"
 }

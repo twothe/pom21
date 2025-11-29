@@ -5,15 +5,9 @@
 	group: "313A5BA10E25CEAE"
 	icon: {
 		components: {
-			"psi:components": [
-				"psi:cad_assembly_iron"
-				"psi:cad_core_basic"
-				"psi:cad_socket_basic"
-				"psi:cad_battery_basic"
-				"minecraft:air"
-			]
+			"ftbquests:missing_item": "psi:cad"
 		}
-		id: "psi:cad"
+		id: "ftbquests:missing_item"
 	}
 	id: "773F3EAA4ADC82B9"
 	order_index: 2
@@ -23,7 +17,7 @@
 			id: "581B6D2E42ED15CB"
 			tasks: [{
 				id: "287CDFF1C5A013E5"
-				item: { components: { "psi:components": [ "psi:cad_assembly_iron", "psi:cad_core_basic", "psi:cad_socket_basic", "psi:cad_battery_basic", "minecraft:air" ] }, count: 1, id: "psi:cad" }
+				item: { components: { "ftbquests:missing_item": "psi:cad" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -33,7 +27,7 @@
 			id: "54CEDF49D7C17436"
 			tasks: [{
 				id: "3935AD28A99C2ED8"
-				item: { count: 1, id: "psi:cad_assembler" }
+				item: { components: { "ftbquests:missing_item": "psi:cad_assembler" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -43,7 +37,7 @@
 			id: "69FD3FE5415D21E4"
 			tasks: [{
 				id: "3DFEE2DC3E68B724"
-				item: { count: 1, id: "psi:programmer" }
+				item: { components: { "ftbquests:missing_item": "psi:programmer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -54,7 +48,7 @@
 			id: "366CFA1D4D6B9670"
 			tasks: [{
 				id: "119EB904A95B63A1"
-				item: { count: 1, id: "psi:cad_assembly_iron" }
+				item: { components: { "ftbquests:missing_item": "psi:cad_assembly_iron" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -65,7 +59,7 @@
 			id: "6861E042E856AEB5"
 			tasks: [{
 				id: "38DB16FEB349A141"
-				item: { count: 1, id: "psi:spell_bullet" }
+				item: { components: { "ftbquests:missing_item": "psi:spell_bullet" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -76,7 +70,7 @@
 			id: "301D8961FA375EEE"
 			tasks: [{
 				id: "0AF484479F76D101"
-				item: { count: 1, id: "psi:cad_assembly_gold" }
+				item: { components: { "ftbquests:missing_item": "psi:cad_assembly_gold" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -87,7 +81,7 @@
 			id: "1DFC496231E01BE8"
 			tasks: [{
 				id: "154D641FA99B0B05"
-				item: { count: 1, id: "psi:cad_assembly_psimetal" }
+				item: { components: { "ftbquests:missing_item": "psi:cad_assembly_psimetal" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -99,25 +93,28 @@
 			rewards: [{
 				id: "73CD6BDCDF232E62"
 				item: {
+					components: {
+						"ftbquests:missing_item": "psi:cad_colorizer_white"
+					}
 					count: 1
-					id: "psi:cad_colorizer_white"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [
 				{
 					id: "03A719DDB3BAC5FB"
-					item: { count: 1, id: "psi:cad_core_basic" }
+					item: { components: { "ftbquests:missing_item": "psi:cad_core_basic" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "57D32C9B3D20E62A"
-					item: { count: 1, id: "psi:cad_socket_basic" }
+					item: { components: { "ftbquests:missing_item": "psi:cad_socket_basic" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 				{
 					id: "778E70DE3CB5DA15"
-					item: { count: 1, id: "psi:cad_battery_basic" }
+					item: { components: { "ftbquests:missing_item": "psi:cad_battery_basic" }, count: 1, id: "ftbquests:missing_item" }
 					type: "item"
 				}
 			]
@@ -129,7 +126,7 @@
 			id: "47AD1EC9B907637E"
 			tasks: [{
 				id: "239FCA3A5D596D49"
-				item: { count: 1, id: "psi:spell_bullet_loop" }
+				item: { components: { "ftbquests:missing_item": "psi:spell_bullet_loop" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -140,7 +137,7 @@
 			id: "782F9F1D4505FEB8"
 			tasks: [{
 				id: "004F09F981F4AA35"
-				item: { count: 1, id: "psi:psidust" }
+				item: { components: { "ftbquests:missing_item": "psi:psidust" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
