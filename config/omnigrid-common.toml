@@ -1,0 +1,22 @@
+[omniGrid]
+	# Default: 10000
+	# Range: 0 ~ 9223372036854775807
+	energyCapacity = 1000
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	openEnergyUsage = 10
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	craftingEnergyUsage = 10
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	clearMatrixEnergyUsage = 10
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	recipeTransferEnergyUsage = 10
+	# Default: 500
+	# Range: 0 ~ 9223372036854775807
+	networkChargeRate = 500
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	networkDrainRate = 5

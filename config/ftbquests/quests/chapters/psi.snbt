@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "psi"
+	group: "313A5BA10E25CEAE"
+	icon: {
+		components: {
+			"psi:components": [
+				"psi:cad_assembly_iron"
+				"psi:cad_core_basic"
+				"psi:cad_socket_basic"
+				"psi:cad_battery_basic"
+				"minecraft:air"
+			]
+		}
+		id: "psi:cad"
+	}
+	id: "773F3EAA4ADC82B9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "581B6D2E42ED15CB"
+			tasks: [{
+				id: "287CDFF1C5A013E5"
+				item: { components: { "psi:components": [ "psi:cad_assembly_iron", "psi:cad_core_basic", "psi:cad_socket_basic", "psi:cad_battery_basic", "minecraft:air" ] }, count: 1, id: "psi:cad" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			id: "54CEDF49D7C17436"
+			tasks: [{
+				id: "3935AD28A99C2ED8"
+				item: { count: 1, id: "psi:cad_assembler" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "69FD3FE5415D21E4"
+			tasks: [{
+				id: "3DFEE2DC3E68B724"
+				item: { count: 1, id: "psi:programmer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54CEDF49D7C17436"]
+			id: "366CFA1D4D6B9670"
+			tasks: [{
+				id: "119EB904A95B63A1"
+				item: { count: 1, id: "psi:cad_assembly_iron" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69FD3FE5415D21E4"]
+			id: "6861E042E856AEB5"
+			tasks: [{
+				id: "38DB16FEB349A141"
+				item: { count: 1, id: "psi:spell_bullet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["366CFA1D4D6B9670"]
+			id: "301D8961FA375EEE"
+			tasks: [{
+				id: "0AF484479F76D101"
+				item: { count: 1, id: "psi:cad_assembly_gold" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["301D8961FA375EEE"]
+			id: "1DFC496231E01BE8"
+			tasks: [{
+				id: "154D641FA99B0B05"
+				item: { count: 1, id: "psi:cad_assembly_psimetal" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["782F9F1D4505FEB8"]
+			id: "2790E8E91E7C9536"
+			rewards: [{
+				id: "73CD6BDCDF232E62"
+				item: {
+					count: 1
+					id: "psi:cad_colorizer_white"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "03A719DDB3BAC5FB"
+					item: { count: 1, id: "psi:cad_core_basic" }
+					type: "item"
+				}
+				{
+					id: "57D32C9B3D20E62A"
+					item: { count: 1, id: "psi:cad_socket_basic" }
+					type: "item"
+				}
+				{
+					id: "778E70DE3CB5DA15"
+					item: { count: 1, id: "psi:cad_battery_basic" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6861E042E856AEB5"]
+			id: "47AD1EC9B907637E"
+			tasks: [{
+				id: "239FCA3A5D596D49"
+				item: { count: 1, id: "psi:spell_bullet_loop" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["366CFA1D4D6B9670"]
+			id: "782F9F1D4505FEB8"
+			tasks: [{
+				id: "004F09F981F4AA35"
+				item: { count: 1, id: "psi:psidust" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+	]
+}

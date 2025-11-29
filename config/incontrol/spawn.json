@@ -1,0 +1,137 @@
+[
+	{
+		"when": "onjoin",
+		"mob": "minecraft:player",
+		"result": "default"
+	},
+	{
+		"when": "onjoin",
+		"spawntype": ["command", "spawn_egg", "bucket", "dispenser", "breeding", "conversion", "mob_summoned", "reinforcement", "event", "triggered", "patrol"],
+		"result": "default"
+	},
+	{
+		"when": "onjoin",
+		"eventspawn": true,
+		"result": "default"
+	},
+	{
+		"when": "onjoin",
+		"spawner": true,
+		"maxcount": 50,
+		"result": "default"
+	},
+	{
+		"when": "onjoin",
+		"spawner": true,
+		"mincount": 50,
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:bat",
+		"mincount": 10,
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:squid",
+		"mincount": 20,
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:strider",
+		"mincount": 10,
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:piglin",
+		"mincount": 20,
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:piglin_brute",
+		"mincount": 40,
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:hoglin",
+		"mincount": 10,
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:magma_cube",
+		"mincount": 30,
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:zombified_piglin",
+		"mincount": 20,
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:blaze",
+		"maxcount": 4,
+		"result": "default"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:wither_skeleton",
+		"maxcount": 4,
+		"result": "default"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:ghast",
+		"maxcount": 4,
+		"result": "default"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:enderman",
+		"maxcount": 2,
+		"result": "default"
+	},
+	{
+		"when": "onjoin",
+		"mob": "minecraft:witch",
+		"maxcount": 1,
+		"result": "default"
+	},
+	{
+		"when": "onjoin",
+		"mod": "minecraft",
+		"spawner": false,
+		"maxcount": {
+			"amount": 100,
+			"hostile": true,
+			"mod": "minecraft"
+		},
+		"result": "default"
+	},
+	{
+		"when": "onjoin",
+		"mod": "minecraft",
+		"spawner": false,
+		"mincount": {
+			"amount": 100,
+			"hostile": true,
+			"mod": "minecraft"
+		},
+		"result": "deny"
+	},
+	{
+		"when": "onjoin",
+		"mincount": {
+			"amount": 200,
+			"hostile": true
+		},
+		"result": "deny"
+	}
+]

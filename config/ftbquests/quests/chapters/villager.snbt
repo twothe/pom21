@@ -1,0 +1,25 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "villager"
+	group: "27D7B48DC20348F5"
+	icon: {
+		id: "tradingpost:trading_post"
+	}
+	id: "475C177BF91DF774"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "minecraft:emerald"
+		}
+		id: "5807349298C87EC2"
+		tasks: [{
+			id: "50A989E86193AE30"
+			item: { count: 1, id: "tradingpost:trading_post" }
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

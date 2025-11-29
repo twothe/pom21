@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:remove_loot",
+  "conditions": [],
+  "items": [
+    "minecraft:filled_map"
+  ]
+}
+

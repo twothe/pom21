@@ -1,0 +1,110 @@
+# ---- OS / IDE clutter --------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.iml
+
+# ---- Minecraft instance (root or .minecraft inside launchers) ----------------
+# Mods and downloads: do not version large/binary jars; use manifests/metadata instead
+mods/
+.minecraft/mods/
+mods/*/
+.minecraft/mods/*/
+
+# Shader & resource packs (often large, user-specific).
+# If they are part of your pack, ship them via overrides/ or packwiz metadata and adjust rules below.
+shaderpacks/
+.minecraft/shaderpacks/
+resourcepacks/
+.minecraft/resourcepacks/
+
+# Worlds / saves
+saves/
+.minecraft/saves/
+world/
+.minecraft/world/
+worlds/
+.minecraft/worlds/
+
+# Runtime data, caches, profiles
+logs/
+/.minecraft/logs/
+/crash-reports/
+/.minecraft/crash-reports/
+/screenshots/
+/.minecraft/screenshots/
+/replay_recordings/
+/.minecraft/replay_recordings/
+/backups/
+/.minecraft/backups/
+/local/
+/.minecraft/local/
+/ESM/
+blueprints/
+/data/
+/datapacks/
+/debug/
+/downloads/
+/dynamic-resource-pack-cache/
+/.mixin.out/
+
+# Common mod/map caches
+journeymap/
+.minecraft/journeymap/
+XaeroWorldMap/
+.minecraft/XaeroWorldMap/
+XaeroWaypoints/
+.minecraft/XaeroWaypoints/
+**/cache/
+**/caches/
+**/.cache/
+
+# Client options (user-specific)
+/servers.dat*
+observable_announce
+server.properties
+/*.json
+/*.txt
+
+# ---- Launchers / distribution -------------------------------------------------
+# Prism/MultiMC/PrismLauncher export artefacts
+mmc-pack.json
+instance.cfg
+
+# CurseForge/CF-App: track manifest.json and overrides/, but never the downloaded mods themselves
+# (Note: rules below explicitly *include* them again)
+# !manifest.json
+# !overrides/
+
+# Packwiz: track *.pw.toml + pack/index files, ignore binary downloads/locks/backups
+.packwiz.lock.json
+.packwizbackup/
+# In case someone dropped full mod jars by mistake
+**/*.disabled.jar
+
+# ---- Java / general -----------------------------------------------------------
+*.log
+hs_err_pid*
+*.tmp
+*.bak
+~$*
+
+# ---- Exceptions: these SHOULD be versioned -----------------------------------
+# Config and scripts that define the pack
+!config/
+!defaultconfigs/
+!kubejs/
+!scripts/
+!overrides/
+!overrides/**
+!manifest.json
+
+# Packwiz metadata
+!pack.toml
+!index.toml
+!mods/**.pw.toml
+!resourcepacks/**.pw.toml
+!shaderpacks/**.pw.toml
+!*.pw.toml

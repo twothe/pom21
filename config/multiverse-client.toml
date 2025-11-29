@@ -1,0 +1,31 @@
+#Multiverse client-side configuration
+#This is the number of layers to render rifts with
+#Range: > 1
+riftLayers = 3
+#This is the offset in blocks for each rift layer to combat Z-fighting. 
+#Range: 0.0 ~ 1.7976931348623157E308
+riftZOffset = 5.0E-4
+#This is the fraction of the width/height of the rift that the first layer starts. 
+#Range: 0.0 ~ 1.0
+riftLayerStart = 0.75
+#This is the rate that the distance between rift layer grows using an exponential function. 
+#Range: 0.0 ~ 1.7976931348623157E308
+riftLayerGrowth = 0.5
+#This is the minimum opacity of a rift's layers as a fraction. 
+#Range: 0.0 ~ 1.0
+riftMinOpacity = 0.5
+#This is the maximum opacity of a rift's layers as a fraction. Must be at least riftMinOpacity. 
+#Range: 0.0 ~ 1.0
+riftMaxOpacity = 1.0
+#This is the distance in blocks that rift blocks are rendered. 
+#Range: > 0
+riftRenderDistance = 256
+#This is the max distance in blocks that rift explosion particles will spawn from the center. 
+#Range: 0.0 ~ 1.7976931348623157E308
+riftExplosionParticleRange = 4.0
+#This is the number of rift explosion particles spawned per tick. 
+#Range: > 0
+riftExplosionParticles = 6
+#This is whether only vanilla shaders are used to render. Try setting to true if rifts are invisible due to custom shaders. 
+vanillaOnly = false
+

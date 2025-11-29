@@ -1,0 +1,15 @@
+#Whether tooltips are shown
+showTooltips = true
+#Whether stat trackers are shown
+showStatTrackers = true
+#Whether a jeweled item can be crafted by draging and droping a tool onto a ring in an inventory
+allowDropCrafting = false
+#Whether crown items will display in a vanilla fashion
+vanillaCrownModels = false
+#The number of mobs slain for 1 level up
+killsPerLevel = 10
+#The number of blocks mined for 1 level up
+blocksPerLevel = 10
+#The number of ores mined for 1 level up
+oresPerLevel = 10
+

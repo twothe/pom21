@@ -1,0 +1,8 @@
+#Phantoms only attack players with the Night Omen effect.
+pickyPhantoms = true
+#Phantoms have a chance of dropping bones on top of their standard loot table.
+bonyPhantoms = true
+#Phantom Membranes can be used to repair any damaged item in the crafting grid.
+mendingMembranes = true
+#Ominous Bottles can be found in Dungeon chests.
+dungeonBottles = true

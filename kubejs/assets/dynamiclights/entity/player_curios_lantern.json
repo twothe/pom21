@@ -1,0 +1,4 @@
+{
+  "match": { "type": "minecraft:player" },
+  "luminance": { "type": "kubejs:curios_lantern" }
+}
