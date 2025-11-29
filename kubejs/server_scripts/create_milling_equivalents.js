@@ -9,7 +9,7 @@ ServerEvents.recipes((event) => {
 		const clamped = Math.max(0, Math.min(1, base * SCALE))
 		return roundChance(clamped)
 	}
-	const scaleResult = (result) => {
+	const scaleResult = (result, noscale) => {
 		const scaled = {}
 		const id = result.id ?? result.item
 		if (id) scaled.id = id
@@ -17,7 +17,7 @@ ServerEvents.recipes((event) => {
 		if (result.count !== undefined) scaled.count = result.count
 		if (result.fluid) scaled.fluid = result.fluid
 		if (result.amount !== undefined) scaled.amount = result.amount
-		const chance = scaleChance(result.chance)
+		const chance = noscale ? result.chance : scaleChance(result.chance)
 		if (chance >= 1) return scaled
 		scaled.chance = chance
 		return scaled
@@ -60,6 +60,16 @@ ServerEvents.recipes((event) => {
 				{ id: "minecraft:gold_nugget", chance: 0.2 },
 			],
 		},
+		{
+			name: "diamond_horse_armor",
+			ingredient: "minecraft:diamond_horse_armor",
+			processingTime: 250,
+			noscale: true,
+			results: [
+				{ id: "minecraft:diamond", chance: 1 },
+				{ id: "minecraft:diamond", chance: 0.1 },
+			],
+		},
 	]
 	const buildIngredient = (value) => {
 		if (typeof value === "string" && value.startsWith("#")) {
@@ -70,7 +80,7 @@ ServerEvents.recipes((event) => {
 	const emitRecipe = (recipe) => {
 		const scaledResults = []
 		for (let i = 0; i < recipe.results.length; i++) {
-			scaledResults.push(scaleResult(recipe.results[i]))
+			scaledResults.push(scaleResult(recipe.results[i], recipe.noscale))
 		}
 		const json = {
 			type: "create:milling",

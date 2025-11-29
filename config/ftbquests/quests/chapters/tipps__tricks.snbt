@@ -178,11 +178,23 @@
 				id: "minecraft:zombie_head"
 			}
 			id: "4E8ADC0D25058E76"
-			tasks: [{
-				id: "36758E452CCEC904"
-				item: { count: 1, id: "minecraft:redstone" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0C793159184261E5"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+				{
+					id: "0EEB8716BD5BB62D"
+					item: { count: 1, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					id: "3F2315F053587103"
+					item: { count: 1, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 2.0d
 		}
@@ -199,6 +211,24 @@
 			}]
 			x: 1.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["4E8ADC0D25058E76"]
+			icon: {
+				components: {
+					"sophisticatedcore:accent_color": -15295332
+					"sophisticatedcore:main_color": -15295332
+				}
+				id: "sophisticatedbackpacks:backpack"
+			}
+			id: "6235533F1CC9E4D2"
+			tasks: [{
+				id: "09FC4B97BED812E3"
+				item: { count: 1, id: "sophisticatedbackpacks:jukebox_upgrade" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 	]
 }

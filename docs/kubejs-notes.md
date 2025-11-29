@@ -44,3 +44,13 @@ MoreJS.wandererTrades(event => {
 ```
 
 - Remember that the event only **offers** new choices; the trader still randomly selects a subset of level-1 trades every time it spawns.
+
+## Ars Nouveau Enchanting Apparatus recipes
+
+- Use `event.custom({ type: "ars_nouveau:enchanting_apparatus", ... })` inside `ServerEvents.recipes` to inject new apparatus crafts. The serializer expects:
+	- `reagent`: a single catalyst ingredient (center item) defined via `{ item: "mod:item" }` or `{ tag: "namespace:tag" }`.
+	- `pedestalItems`: array of ingredient objects for each pedestal. Order does **not** matter; matching is multiset-based via `RecipeMatcher`.
+- `result`: `{ id: "mod:item", count: N }` stack returned after crafting. (`id` is required per Ars Nouveau's serializer even though many vanilla recipes accept `item`.)
+	- `sourceCost`: integer source requirement (0+). Values >0 consume source from nearby jars/sourcelinks.
+	- `keepNbtOfReagent` (optional): defaults to `false`; set `true` if the reagent's components should copy onto the output.
+- Example (see `kubejs/server_scripts/blaze-rod-hc.js`): turning a `createaddition:gold_rod` reagent plus four pedestals into a `minecraft:blaze_rod` with `sourceCost: 1000`.

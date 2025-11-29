@@ -98,7 +98,7 @@
 		"2. Exploration is part of the challenge."
 		"3. Most structures are disabled."
 		"4. JEI is your best friend."
-		"5. If it would involve massive grind, there is probably an easier way."
+		"5. If it would involve absurd grind, there is probably an easier way."
 	]
 	quest.2D33502DFC4F2E3E.quest_desc: ["Breaks all connected ores at once."]
 	quest.3003D6D9B913969B.quest_desc: [
@@ -209,6 +209,8 @@
 	quest.61C0798BEE700C4C.quest_desc: ["5 Villagers together will spawn an Iron Golem."]
 	quest.61C0798BEE700C4C.title: "Iron Farm?"
 	quest.61DFFFA1D72A97B6.title: "World's most famous Dragon slayer"
+	quest.6235533F1CC9E4D2.quest_desc: ["Every mob type has a different backpack loot table."]
+	quest.6235533F1CC9E4D2.title: "Backpacks?"
 	quest.62B34B621F6A4074.quest_desc: ["Rituals allow you to apply magic to larger areas, or cause effects that otherwise would be impossible."]
 	quest.636656A73C364CB1.quest_desc: ["As fly as you can get."]
 	quest.636656A73C364CB1.title: "The Secret to Flight are Wings"

@@ -513,7 +513,7 @@
 		#Chance of an entity spawning with Backpack
 		# Default: 0.01
 		# Range: 0.0 ~ 1.0
-		chance = 0.01
+		chance = 0.05
 		#Turns on/off addition of loot into backpacks
 		addLoot = true
 		#Turns on/off buffing the entity that wears backpack with potion effects. These are scaled based on how much loot is added.
@@ -529,15 +529,15 @@
 		#Turns on/off a chance that the entity that wears backpack gets jukebox upgrade and plays a music disc.
 		playJukebox = true
 		#Determines whether backpack drops to fake players if killed by them in addition to real ones that it always drops to
-		dropToFakePlayers = false
+		dropToFakePlayers = true
 		#Chance of mob dropping backpack when killed by player
 		# Default: 0.5
 		# Range: 0.0 ~ 1.0
-		backpackDropChance = 0.5
+		backpackDropChance = 0.33
 		#Chance increase per looting level of mob dropping backpack
 		# Default: 0.15
 		# Range: 0.0 ~ 0.3
-		lootingChanceIncreasePerLevel = 0.15
+		lootingChanceIncreasePerLevel = 0.22
 		#Weight of selecting a Leather Backpack when an entity spawns with a backpack
 		# Default: 625
 		# Range: 0 ~ 9999
@@ -569,7 +569,7 @@
 		#Minimum tier of backpack mobs are equipped with at high local difficulty (above 2/3 of max, 0 is leather)
 		# Default: 2
 		# Range: 0 ~ 6
-		minBackpackTierHighDifficulty = 2
+		minBackpackTierHighDifficulty = 3
 		#If local difficulty is taken into consideration when determining the difficulty. If local difficulty is high enough then it will use difficulty settings above
 		localDifficultyEffectsBackpackSpawns = true
 
