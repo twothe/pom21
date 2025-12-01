@@ -134,7 +134,7 @@
 	#Alternator efficiency relative to base conversion rate.
 	# Default: 0.75
 	# Range: 0.01 ~ 1.0
-	generator_efficiency = 0.75
+	generator_efficiency = 1.0
 	#Alternator internal capacity in FE.
 	# Default: 5000
 	# Range: > 0

@@ -69,6 +69,8 @@
 		"You can mix the mods as you want, or stay true to your chosen class, nothing is enforced."
 	]
 	quest.1BD20AAF9B48FC6A.title: "Choose Your Destiny"
+	quest.1C9E823B5A41F760.quest_desc: ["Easy!"]
+	quest.1C9E823B5A41F760.title: "Blaze Rod?"
 	quest.1CF6828CAC6CF241.quest_desc: [
 		"A scroll that can bring you to the point that you bound it to (shift-right click)! I am sure that will come in handy."
 		""
@@ -91,7 +93,7 @@
 	quest.28F981DB60F0D5D3.quest_desc: ["Spell Turrets allow you to apply a spell to a location. With those you can automatigcally cast any spell you could cast with a book."]
 	quest.2A8B0AB8A1CCD5B6.title: "Intermediate Wizard"
 	quest.2AF6D90483ABD717.quest_desc: [
-		"This guide will assist you, but will not reveal all details for you. It is partially a puzzle challenge after all. You can freely ignore all quests here if you want to figure things out yourself."
+		"This guide will assist you, but will not reveal all details for you. It is partially a puzzle challenge after all. You can ignore all quests here if you want to figure things out yourself, they will give no rewards."
 		""
 		"General hints:"
 		"1. Vanilla Minecraft mechanics are useful."
@@ -120,9 +122,19 @@
 	quest.36CE8605EE79F0FD.quest_desc: ["For the next tier you need some special items. The rituals you can cast will allow you to get them."]
 	quest.36CE8605EE79F0FD.title: "Advancing Magic"
 	quest.38367B1135133458.quest_desc: ["Witchcraft is a force of nature: slow, yet deadly when properly prepared. Brewing, rituals and a bit of trickery get you where you want to be."]
+	quest.383FFA56B56DA4CB.quest_desc: ["Oh, that's new!"]
+	quest.383FFA56B56DA4CB.title: "Oritech?"
 	quest.388ECCFDC0A36DBA.quest_desc: ["Tier 3, requires End resources."]
 	quest.3CE65C3FCBEBC2A0.quest_desc: ["What a flavor!"]
 	quest.3F791F8B2170E81E.quest_desc: ["Using a Bookwyrm Charm on a Lectern allows you to link any storage with a single interface. That way you can access and craft with all items you have without having to shuffle through chests."]
+	quest.402247989B804C24.quest_desc: ["Gratulation on becoming a Mage, you did well!"]
+	quest.402247989B804C24.title: "Half way there!"
+	quest.42C4ED025B56FA81.quest_desc: [
+		"This challenge is build around Ars Nouveau, Create, Oritech and Mechanism."
+		""
+		"It is possible to use Minecolonies and Scriptor alternatively, but it's going to be much harder that way."
+	]
+	quest.42C4ED025B56FA81.title: "And the Rest?"
 	quest.4403DD0B78120DE0.quest_desc: ["Sooner or later your townsfolk will want their own place to live, or they refuse to work."]
 	quest.4635B417B7DF4E7C.quest_desc: [
 		"The nether as we all know it."
@@ -197,7 +209,7 @@
 		""
 		"Quests in this category are only relevant if you play that challenge."
 		""
-		"In the Bedrock challenge all worlds consist of mostly Bedrock. You need to figure out how to get resources and progress with almost nothing. It tries to not include massive grind, but it will expect you to be creative and know Minecraft mechanics well."
+		"In the Bedrock challenge all worlds consist of mostly Bedrock. You need to figure out how to get resources and progress with almost nothing. It tries to avoid massive grind, but it will expect you to be creative and know Minecraft mechanics well."
 	]
 	quest.6067F563634B2144.title: "How?"
 	quest.60D7075223DC5253.quest_desc: [
@@ -209,7 +221,7 @@
 	quest.61C0798BEE700C4C.quest_desc: ["5 Villagers together will spawn an Iron Golem."]
 	quest.61C0798BEE700C4C.title: "Iron Farm?"
 	quest.61DFFFA1D72A97B6.title: "World's most famous Dragon slayer"
-	quest.6235533F1CC9E4D2.quest_desc: ["Every mob type has a different backpack loot table."]
+	quest.6235533F1CC9E4D2.quest_desc: ["Every mob type has a different backpack loot table. You can tell from the color."]
 	quest.6235533F1CC9E4D2.title: "Backpacks?"
 	quest.62B34B621F6A4074.quest_desc: ["Rituals allow you to apply magic to larger areas, or cause effects that otherwise would be impossible."]
 	quest.636656A73C364CB1.quest_desc: ["As fly as you can get."]
@@ -303,6 +315,7 @@
 	reward.5DD793D68AC4A814.title: "Oritech"
 	reward.70FCF179FC1D8B7A.title: "Create"
 	task.0133A392B29241B9.title: "Digging?"
+	task.01E58359F880AB3D.title: "And the rest?"
 	task.3B8012C0293FCF5E.title: "End"
 	task.438A006C3F7BA6CA.title: "But really: how?"
 	task.48B980A868526796.title: "How?"

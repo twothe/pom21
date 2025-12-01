@@ -54,3 +54,9 @@ MoreJS.wandererTrades(event => {
 	- `sourceCost`: integer source requirement (0+). Values >0 consume source from nearby jars/sourcelinks.
 	- `keepNbtOfReagent` (optional): defaults to `false`; set `true` if the reagent's components should copy onto the output.
 - Example (see `kubejs/server_scripts/blaze-rod-hc.js`): turning a `createaddition:gold_rod` reagent plus four pedestals into a `minecraft:blaze_rod` with `sourceCost: 1000`.
+
+## Create fan processing tweaks
+
+- Overwrite built-in recipes (e.g., `create:splashing/crushed_raw_iron`) by calling `event.remove({ id })` before emitting a new `event.custom({ type: "create:splashing", ... }).id(id)` payload; this keeps JEI entries stable and avoids duplicate recipe IDs.
+- Each fan-processing serializer (`create:splashing`, `create:haunting`, etc.) expects an explicit `results` array; optional drops use `{ chance: 0.xx, id: "namespace:item" }` while guaranteed items can set `count`.
+- When extending a default recipe with extra drops (like adding a 50% `oritech:nickel_nugget` to crushed iron washing or introducing a diamond→amethyst haunting), copy the original JSON from the Create jar, merge the new entries, and keep identifiers consistent so mods referencing the default recipe keep working.

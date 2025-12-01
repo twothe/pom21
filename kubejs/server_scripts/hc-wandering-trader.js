@@ -7,4 +7,8 @@
 
 MoreJS.wandererTrades((event) => {
 	event.addTrade(2, Item.of("minecraft:emerald", 4), Item.of("integrateddynamics:menril_sapling", 1)).maxUses(4).villagerExperience(1).priceMultiplier(0.05)
+	
+	for (const item of ["ars_nouveau:mendosteen_pod", "ars_nouveau:bastion_pod", "ars_nouveau:frostaya_pod", "ars_nouveau:bombegranate_pod", "ars_elemental:flashpine_pod"]) {
+		event.addTrade(2, Item.of("minecraft:emerald", 2), Item.of(item, 1)).maxUses(8).villagerExperience(1).priceMultiplier(0.05)
+	}
 })

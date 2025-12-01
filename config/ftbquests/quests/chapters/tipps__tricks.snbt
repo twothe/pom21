@@ -79,7 +79,7 @@
 				id: "0133A392B29241B9"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -229,6 +229,64 @@
 			}]
 			x: 3.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["565483ECEA934AD7"]
+			icon: {
+				id: "create:crushed_raw_iron"
+			}
+			id: "383FFA56B56DA4CB"
+			tasks: [{
+				id: "24160A81157F9D16"
+				item: { count: 1, id: "create:crushed_raw_iron" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6067F563634B2144"]
+			icon: {
+				id: "minecolonies:supplychestdeployer"
+			}
+			id: "42C4ED025B56FA81"
+			tasks: [{
+				id: "01E58359F880AB3D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"555F2C8FF1563D51"
+				"1C9E823B5A41F760"
+			]
+			icon: {
+				id: "ars_nouveau:apprentice_spell_book"
+			}
+			id: "402247989B804C24"
+			tasks: [{
+				id: "1BBF84BFDCB46461"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["03AD5CDA07B0CC98"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "1C9E823B5A41F760"
+			tasks: [{
+				id: "03626C29A11F65FD"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
 		}
 	]
 }
