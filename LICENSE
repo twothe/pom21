@@ -1,0 +1,109 @@
+Peace of Mind 21 Mod/Modpack License
+Version 1.0
+
+Copyright (c) 2025 TwoThe
+All rights reserved.
+
+1. Definitions
+
+1.1 "Project" means the software mod and/or modpack identified as "Peace of Mind 21", including its source code, compiled form, configuration files, scripts, and associated assets created by the copyright holder.
+
+1.2 "Mod" means a modification to the game Minecraft or a similar game, distributed as a separate component.
+
+1.3 "Modpack" means a collection of one or more Mods and/or other content, packaged for combined installation or use.
+
+1.4 "Source Code" means the human-readable form of the Project.
+
+1.5 "Object Form" means any non-human-readable form of the Project, such as compiled code, packaged archives, or similar.
+
+1.6 "You" (or "Your") means any individual or legal entity exercising permissions granted by this license.
+
+1.7 "Non-Commercial Use" means any use of the Project that does not involve demanding direct payment or other direct monetary compensation specifically for access to, a copy of, or a license to the Project or any derivative work of the Project.
+
+1.8 "Server Monetization" means generating revenue from operating a game server on which the Project is installed, including but not limited to donations, advertisements, paid cosmetic items, paid ranks, or paid access to the server itself, provided that the Project itself is not sold or marketed as a separate paid product.
+
+1.9 "Derivative Work" means any work based upon the Project or any portion of it, including modifications, translations, or other adaptations in Source Code or Object Form.
+
+2. Grant of Rights
+
+Subject to Your continued compliance with this license, the copyright holder hereby grants You a worldwide, royalty-free, non-exclusive, non-transferable license to:
+
+2.1 Use  
+(a) Download, install, and run the Project in singleplayer or multiplayer.  
+(b) Use the Project in both private and public environments, including on dedicated servers.
+
+2.2 Server Use and Monetization  
+Operate servers that use the Project and engage in Server Monetization, provided that:  
+(a) You do not sell, rent, or license the Project itself as a separate product; and  
+(b) You do not represent the Project as Your own work or as an official version endorsed by the copyright holder.
+
+2.3 Distribution of Unmodified Project  
+Copy and redistribute the unmodified Project in Source Code or Object Form for Non-Commercial Use, including bundling it with other software, provided that:  
+(a) this license text is included unmodified with every copy;  
+(b) the original project name "Peace of Mind 21" and the copyright holder are clearly credited; and  
+(c) You do not misrepresent Your relationship with the copyright holder.
+
+2.4 Inclusion in Modpacks  
+Include the unmodified Project in Non-Commercial Modpacks, provided that:  
+(a) the Modpack is distributed free of charge, except for optional donations or general platform fees not specifically tied to the Project;  
+(b) this license is included unmodified in the Modpack;  
+(c) the Modpack documentation credits "Peace of Mind 21" and its copyright holder; and  
+(d) You do not impose additional restrictions on the Project beyond those in this license.
+
+For avoidance of doubt, You may operate monetized servers using a Modpack that includes the Project, subject to the conditions in Section 2.2.
+
+2.5 Forking for Contributions and Patches  
+Fork the Project's Source Code repository and create Derivative Works solely for the following purposes:  
+(a) experimenting with bug fixes and improvements;  
+(b) preparing patches and pull requests to be submitted back to the original Project;  
+(c) creating temporary builds to test such fixes and improvements with a limited group of testers.
+
+Any such Derivative Works may only be distributed to the extent strictly necessary to test or submit contributions to the original Project and may not be publicly released as a separate project without the copyright holder's prior written permission.
+
+3. Restrictions
+
+Except as expressly permitted in Section 2, You may NOT:
+
+3.1 Commercial Distribution  
+Sell, rent, lease, license, or otherwise commercially distribute the Project or any Derivative Work of the Project, whether alone or as part of a product or service, without the prior written permission of the copyright holder. This includes, without limitation:  
+(a) selling access to downloads of the Project;  
+(b) selling Modpacks in which the Project is a component;  
+(c) including the Project in any paid software bundle, subscription, or similar commercial product.
+
+Operating monetized servers in accordance with Section 2.2 is permitted and does not, by itself, constitute commercial distribution of the Project.
+
+3.2 Public Release of Forks as Separate Projects  
+Publicly release, advertise, or distribute any Derivative Work of the Project as an independent mod, modpack, or other product under a different name or branding, without the prior written permission of the copyright holder.
+
+3.3 Re-licensing and Additional Restrictions  
+(a) Re-license the Project, in whole or in part, under a different license; or  
+(b) Impose further restrictions on recipients of the Project beyond those in this license.
+
+3.4 Misrepresentation  
+Misrepresent the origin of the Project or any Derivative Work, or falsely claim authorship, endorsement, or official status by the copyright holder.
+
+4. Third-Party Components and Modpacks
+
+4.1 If the Project is a Modpack, this license applies only to the parts of the Modpack for which the copyright holder owns the rights.  
+4.2 Third-party components included in a Modpack are licensed under their respective licenses. Nothing in this license overrides or replaces the licenses of third-party components.  
+4.3 When You create and distribute a Modpack that includes the Project, You are responsible for complying with all applicable third-party licenses.
+
+5. Termination
+
+5.1 This license and the rights granted herein automatically terminate if You materially breach any of its terms.  
+5.2 Upon termination, You must cease all distribution of the Project and any Derivative Works, but You may retain existing personal copies solely for personal, non-public use.  
+5.3 The copyright holder may, at their discretion, grant You written permission to cure a breach within a reasonable time frame. If the breach is cured, the license may be reinstated.
+
+6. Disclaimer of Warranty
+
+THE PROJECT IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF TITLE, NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A PARTICULAR PURPOSE. YOU ASSUME ALL RISKS ASSOCIATED WITH THE INSTALLATION AND USE OF THE PROJECT.
+
+7. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, LOSS OF PROFITS, DATA, OR GOODWILL, OR SERVICE INTERRUPTION) ARISING OUT OF OR IN CONNECTION WITH THE USE OR INABILITY TO USE THE PROJECT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+8. Miscellaneous
+
+8.1 This license does not grant permission to use the name, logo, or trademarks of the copyright holder, except as required for reasonable and accurate attribution.  
+8.2 If any provision of this license is held to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.  
+8.3 This license is intended to provide source-available, non-commercial rights. It is not an open-source license as defined by the Open Source Initiative (OSI).

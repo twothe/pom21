@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
 			results: [
 				{ count: 9, id: "minecraft:iron_nugget" },
 				{ chance: 0.75, id: "minecraft:redstone" },
-				{ chance: 0.5, id: "oritech:small_nickel_clump" },
+				{ chance: 0.1, id: "oritech:small_nickel_clump" },
 			],
 		})
 		.id(recipeId)

@@ -29,3 +29,11 @@ enableInfoLogs = false
 enableWarnLogs = false
 #启用错误日志输出
 enableErrorLogs = true
+#打开GUI时需要消耗的物品配置，格式: modid:item_id,数量
+#示例:
+#  minecraft:emerald,1 (默认 - 1个绿宝石)
+#  minecraft:diamond,2 (需要2个钻石)
+#  minecraft:gold_ingot,5 (需要5个金锭)
+#注意：玩家主手或副手持有任意一种配置的物品即可
+#如果配置多个物品，玩家只需满足其中一个即可
+guiCostItems = ["minecraft:emerald,1"]

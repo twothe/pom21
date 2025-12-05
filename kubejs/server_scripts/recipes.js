@@ -19,12 +19,14 @@ ServerEvents.recipes((event) => {
 	// Balancing
 	removeAllFor("ars_additions:source_spawner", "ars_additions:ender_source_jar")
 	removeAllFor("mekanism:upgrade_energy", "mekanismgenerators:wind_generator") // Balance mod through power
-
 	removeAllFor("oritech:spawner_controller_block")
 	removeAllFor("oritech:spawner_cage_block")
 
 	// Recipe clash
 	removeAllFor("mekanism:block_charcoal")
+
+	// unification
+	event.blasting("mekanism:ingot_uranium", "oritech:uranium_dust")
 })
 
 ServerEvents.tags("item", (event) => {
