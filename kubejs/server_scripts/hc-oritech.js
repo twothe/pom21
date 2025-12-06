@@ -1,8 +1,13 @@
 /**
- * Extends Create's crushed iron washing output with Oritech nickel support.
+ * Aligns Create's crushed iron washing with Oritech drops and wires Fluxite acquisition into the Enderic Laser.
  */
 
 ServerEvents.recipes((event) => {
+	extendCrushedIronSplashing(event) // allows to get Platin
+	addAmethystFluxiteLaser(event) // allows to get budding Amethyst cluster
+})
+
+function extendCrushedIronSplashing(event) {
 	const recipeId = "create:splashing/crushed_raw_iron"
 	event.remove({ id: recipeId })
 	event
@@ -16,4 +21,21 @@ ServerEvents.recipes((event) => {
 			],
 		})
 		.id(recipeId)
-})
+}
+
+function addAmethystFluxiteLaser(event) {
+	const recipeId = "kubejs:oritech/laser/amethyst_block_fluxite"
+	event
+		.custom({
+			type: "oritech:laser",
+			fluidInput: {
+				amount: 0,
+				fluid: "minecraft:empty",
+			},
+			fluidOutputs: [],
+			ingredients: [{ item: "minecraft:amethyst_block" }],
+			results: [{ count: 1, id: "oritech:fluxite" }],
+			time: 1,
+		})
+		.id(recipeId)
+}

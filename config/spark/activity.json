@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "TwoThe",
+      "uniqueId": "96ceb858-de2c-417c-99c8-412b0a8501fd"
+    },
+    "time": 1765032998563,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/qn47w2jsFl"
+    }
+  }
+]

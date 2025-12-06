@@ -60,3 +60,9 @@ MoreJS.wandererTrades(event => {
 - Overwrite built-in recipes (e.g., `create:splashing/crushed_raw_iron`) by calling `event.remove({ id })` before emitting a new `event.custom({ type: "create:splashing", ... }).id(id)` payload; this keeps JEI entries stable and avoids duplicate recipe IDs.
 - Each fan-processing serializer (`create:splashing`, `create:haunting`, etc.) expects an explicit `results` array; optional drops use `{ chance: 0.xx, id: "namespace:item" }` while guaranteed items can set `count`.
 - When extending a default recipe with extra drops (like adding a 50% `oritech:nickel_nugget` to crushed iron washing or introducing a diamond→amethyst haunting), copy the original JSON from the Create jar, merge the new entries, and keep identifiers consistent so mods referencing the default recipe keep working.
+
+## Oritech Enderic Laser recipes
+
+- `oritech:laser` payloads always declare `fluidInput`, `fluidOutputs`, `ingredients`, `results`, and `time` (see `data/oritech/recipe/laser/*.json` inside the mod jar); zero-fluid entries still use `minecraft:empty` with `amount: 0` and an empty `fluidOutputs` array.
+- Emit new recipes through `event.custom({ type: "oritech:laser", ... }).id(<kubejs id>)` so JEI displays a single entry and future removals can address it directly.
+- Pack tweak: the Enderic Laser now accepts `minecraft:amethyst_block` and outputs one `oritech:fluxite`, mirroring the vanilla amethyst cluster recipe but giving players a bulk conversion option.
