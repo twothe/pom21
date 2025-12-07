@@ -66,3 +66,11 @@ MoreJS.wandererTrades(event => {
 - `oritech:laser` payloads always declare `fluidInput`, `fluidOutputs`, `ingredients`, `results`, and `time` (see `data/oritech/recipe/laser/*.json` inside the mod jar); zero-fluid entries still use `minecraft:empty` with `amount: 0` and an empty `fluidOutputs` array.
 - Emit new recipes through `event.custom({ type: "oritech:laser", ... }).id(<kubejs id>)` so JEI displays a single entry and future removals can address it directly.
 - Pack tweak: the Enderic Laser now accepts `minecraft:amethyst_block` and outputs one `oritech:fluxite`, mirroring the vanilla amethyst cluster recipe but giving players a bulk conversion option.
+
+## Gateways: Tidal Guardians
+
+- `kubejs/data/kubejs/gateways/gateways/tidal_guardians.json` defines the `kubejs:tidal_guardians` Gateway (medium teal) that escalates through four Guardian waves before a heavily buffed Elder Guardian finale; remember that loot-table rewards require a `desc` key mirroring vanilla examples. `kubejs/server_scripts/gateways.js` wires the crafting recipe to produce the gate pearl via vanilla items.
+- Guardian waves spawn 4→7 mobs with incremental health, armor, damage, knockback resistance, and speed modifiers so progression feels noticeable while staying manageable.
+- The Elder Guardian gains +120 HP, +45% damage, +8 armor, +60% knockback resistance, +25% speed, and +1.5 attack knockback, making the capstone fight demand proper gear and ocean-style tactics.
+- Successfully clearing the gate yields Guardian/Elder Guardian loot plus an extra roll on `minecraft:chests/ocean_ruin_warm` for oceanic curios.
+- Craft the associated gate pearl with `gateways:gate_recipe` (pattern `PSP/WHW/PNP`): `P` prismarine shard, `S` sea lantern, `W` wet sponge, `H` heart of the sea, `N` nautilus shell — all vanilla items obtainable from ocean exploration.

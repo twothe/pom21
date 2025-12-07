@@ -11,13 +11,13 @@
 	chapter.614AAB3C1FF597FA.title: "Scriptor"
 	chapter.64AB0FFBD69E7738.title: "Oritech"
 	chapter.6F05C4515D106F36.title: "Getting Started"
-	chapter.773F3EAA4ADC82B9.title: "PSI"
 	chapter.7BCC04609D1A692A.title: "Tipps \\& Tricks"
 	chapter_group.00DDA81571B1A656.title: "Technical"
 	chapter_group.180E3D75CA180959.title: "Misc"
 	chapter_group.27D7B48DC20348F5.title: "General"
 	chapter_group.313A5BA10E25CEAE.title: "Magical"
 	chapter_group.64DAB39C41910626.title: "Bedrock Challenge"
+	quest.003B3670B872835D.quest_desc: ["Slow, but comes with cargo space."]
 	quest.00F0AFF784778C79.quest_desc: ["Tools can have various upgrades, which are the core concept of this mod."]
 	quest.010C2A7911EACC70.quest_desc: [
 		"To get started you need a Town Hall block and a Build tool. Use the tool to select the desired style and placement of your Town Hall, which acts as the very center of your new village."
@@ -40,8 +40,11 @@
 		"There is no fortress or bastion or anything like that though."
 	]
 	quest.03AD5CDA07B0CC98.title: "Nether?"
-	quest.046DEB2CB02B88B9.quest_desc: ["You can build an aircraft if you need to get somewhere fast."]
+	quest.03F4AB13586657F2.quest_desc: ["\"What do you mean with you just throw your steak into a furnace?!\""]
+	quest.046DEB2CB02B88B9.quest_desc: ["Converts food into the ability to fly."]
 	quest.08EAAFCB625AB922.quest_desc: ["People need food, and you need to provide."]
+	quest.08F52F0154651B2F.quest_desc: ["How though?"]
+	quest.08F52F0154651B2F.title: "Somehow?"
 	quest.09B3C4098ECA222C.quest_desc: ["More output for less input."]
 	quest.0C5C494EC00CC348.quest_desc: ["Wandering traders can be summoned by right-clicking on a bell with an emerald."]
 	quest.0C5C494EC00CC348.title: "Traders"
@@ -60,6 +63,8 @@
 	quest.1374B409DB577DD3.title: "Refining"
 	quest.13E2E2FCC13FF795.quest_desc: ["Next \"crafting\" tier, requires Nether resources."]
 	quest.165E442C3C59C068.quest_desc: ["Basically an iron pickaxe, but it can be upgraded in a smithing table."]
+	quest.1702F131ACB40EA1.quest_desc: ["You need a lot of luck, and they ask for a fortune."]
+	quest.1702F131ACB40EA1.title: "Mekanism?"
 	quest.17E000D4F986CD7B.quest_desc: ["Those cute little fellas transport items for you and can automate Sourceberry farms."]
 	quest.1ADA6669837534F8.quest_desc: ["You can trade with all villagers in range with a Trading Post."]
 	quest.1B415DC067010BB1.quest_desc: ["This device allows you to convert lapis or amethyst into source gems, which are required for almost everything in this mod. You really should automate this."]
@@ -76,7 +81,8 @@
 		""
 		"Also upgradable into a version that won't be consumed on cast, if you happen to be a powerful wizard."
 	]
-	quest.1D179599E71CCDE8.quest_desc: ["Drygmys and Whirlisprigs allow you to get loot from mobs and from plants respectively for free, by just feeding them a bit of source."]
+	quest.1D179599E71CCDE8.quest_desc: ["Drygmys, Whirlisprigs and Sirens allow you to get loot from mobs, plants or the ocean respectively for free, by just feeding them a bit of source."]
+	quest.1D179599E71CCDE8.title: "Free Items"
 	quest.1D544E486818B40D.quest_desc: ["The one thing to start it all."]
 	quest.1D960196A57DB513.quest_desc: ["Surround the Heater with lava (except for the output) and attach the Infuser to create your first alloys."]
 	quest.1D960196A57DB513.title: "Getting Started"
@@ -102,6 +108,7 @@
 		"4. JEI is your best friend."
 		"5. If it would involve absurd grind, there is probably an easier way."
 	]
+	quest.2C643F02483B8BD0.quest_desc: ["Automated, but no discounts."]
 	quest.2D33502DFC4F2E3E.quest_desc: ["Breaks all connected ores at once."]
 	quest.3003D6D9B913969B.quest_desc: [
 		"The altar draws energy from nature, so make sure to place it with lots of plantmatter around."
@@ -116,19 +123,25 @@
 	quest.31441CE72BD1B768.title: "Novice Wizard"
 	quest.31DF44DAC8AF66AA.quest_desc: ["You can turn various saplings into special incense for magical rituals."]
 	quest.31DF44DAC8AF66AA.title: "Incense of Intent"
+	quest.349F391CB39CA813.quest_desc: ["Fast transport for skilled pilots."]
 	quest.35B95BF4280F7B6D.quest_desc: ["Exploding a Vent allows you to open it. If you then fill lava on top of it it solidifies into the resource around it."]
 	quest.35B95BF4280F7B6D.title: "Explosions?"
 	quest.366CFA1D4D6B9670.quest_desc: ["Basic casting device."]
 	quest.36CE8605EE79F0FD.quest_desc: ["For the next tier you need some special items. The rituals you can cast will allow you to get them."]
 	quest.36CE8605EE79F0FD.title: "Advancing Magic"
+	quest.378AB2F6C50372AF.quest_desc: ["Allows you to find a structure easily."]
+	quest.37EBADDE067D5A39.quest_desc: ["Finally."]
+	quest.37EBADDE067D5A39.title: "Manipulating the world"
 	quest.38367B1135133458.quest_desc: ["Witchcraft is a force of nature: slow, yet deadly when properly prepared. Brewing, rituals and a bit of trickery get you where you want to be."]
 	quest.383FFA56B56DA4CB.quest_desc: ["Oh, that's new!"]
 	quest.383FFA56B56DA4CB.title: "Oritech?"
 	quest.388ECCFDC0A36DBA.quest_desc: ["Tier 3, requires End resources."]
+	quest.3A33120DE6559601.quest_desc: ["Chop chop!"]
 	quest.3CE65C3FCBEBC2A0.quest_desc: ["What a flavor!"]
 	quest.3F791F8B2170E81E.quest_desc: ["Using a Bookwyrm Charm on a Lectern allows you to link any storage with a single interface. That way you can access and craft with all items you have without having to shuffle through chests."]
 	quest.402247989B804C24.quest_desc: ["Gratulation on becoming a Mage, you did well!"]
 	quest.402247989B804C24.title: "Half way there!"
+	quest.40BE18D78333B3A3.quest_desc: ["Now guaranteed on every Dragon kill. So you don't have to search for ages..."]
 	quest.42C4ED025B56FA81.quest_desc: [
 		"This challenge is build around Ars Nouveau, Create, Oritech and Mechanism."
 		""
@@ -136,6 +149,8 @@
 	]
 	quest.42C4ED025B56FA81.title: "And the Rest?"
 	quest.4403DD0B78120DE0.quest_desc: ["Sooner or later your townsfolk will want their own place to live, or they refuse to work."]
+	quest.44E7FF60F8805FB9.quest_desc: ["The Arcane Catalyst allows you to enchant items without &oany&r limits. Just aim enough lasers at it, have mobs die nearby, and pretend that big explosion never happened."]
+	quest.44E7FF60F8805FB9.title: "Infinite Enchanting"
 	quest.4635B417B7DF4E7C.quest_desc: [
 		"The nether as we all know it."
 		""
@@ -149,6 +164,7 @@
 	]
 	quest.4789195966CF9862.title: "Engineering 101"
 	quest.47AD1EC9B907637E.quest_desc: ["This is where things become crazy."]
+	quest.4A0A0F674CC70AC5.title: "Alloying"
 	quest.4AA44E56374DA4AC.quest_desc: [
 		"Phantoms only spawn if you sleep with a Bad Omen effect. "
 		""
@@ -173,7 +189,7 @@
 	quest.54CEDF49D7C17436.quest_desc: ["Required to assemble your CAD."]
 	quest.550BB7D41DDB27AB.quest_desc: ["Celestigem items use RF instead of durability."]
 	quest.555F2C8FF1563D51.quest_desc: ["Ars Nouveau is probably a good start."]
-	quest.555F2C8FF1563D51.title: "Ars Nouveau"
+	quest.555F2C8FF1563D51.title: "Ars Nouveau?"
 	quest.556C79C98DA95019.quest_desc: ["Powerful, yet power-hungry machines."]
 	quest.556C79C98DA95019.title: "Mekanism"
 	quest.5603365D39B3DCBE.quest_desc: ["Everyone has to eat. And you can't let them eat steak all day long... how barbaric!"]
@@ -247,9 +263,15 @@
 	]
 	quest.69B009E409BB8CEF.quest_desc: ["Transporting items by hand is too exhausting at some point. A Warehouse with a Courier will take that of your hand."]
 	quest.69FD3FE5415D21E4.quest_desc: ["Required to define your spells."]
+	quest.6AAF90AE7F019562.quest_desc: [
+		"Your very own Warp Nexus. Shift-Rightclick it to fill it with Warp Scrolls."
+		""
+		"It does require Source to teleport you around."
+	]
 	quest.6B34BAE28E71E163.quest_desc: ["Sophisticated Backpacks and chests allow you to carry many more items, and they also come with a lot of handy functionality."]
 	quest.6B34BAE28E71E163.title: "Backpacked"
 	quest.6C6421788130922F.quest_desc: ["Essences are required crafting ingredients, you should make sure you have a proper setup to generate them when needed."]
+	quest.6C6421788130922F.title: "Essence of Magic"
 	quest.6C77189548093D20.quest_desc: [
 		"With active Dynamic Entity Lights on you can equip a Lantern into an Accessories belt slot to have a portable light source."
 		""
@@ -277,7 +299,16 @@
 		"Also it's always a great idea to have a scroll to get back home with you."
 	]
 	quest.74F73BF124DF4AB1.title: "Thinking With Portals"
-	quest.77073640A70FA41E.quest_desc: ["There is a dragon to slay... nothing else."]
+	quest.75B70B6604380281.quest_desc: [
+		"This cures Zombie Villagers instantly and for just a bit of source."
+		""
+		"I wonder how they constantly end up in that situation?"
+	]
+	quest.77073640A70FA41E.quest_desc: [
+		"The End portal exists, somewhere. "
+		""
+		"But there is just a dragon to slay, nothing else."
+	]
 	quest.77073640A70FA41E.title: "End?"
 	quest.77186C36B76F35DB.quest_desc: [
 		"Why do the work, if you can just hire people to do it for you?"

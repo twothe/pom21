@@ -18,7 +18,7 @@ ServerEvents.recipes((event) => {
 
 	// Balancing
 	removeAllFor("ars_additions:source_spawner", "ars_additions:ender_source_jar")
-	removeAllFor("mekanism:upgrade_energy", "mekanismgenerators:wind_generator") // Balance mod through power
+	removeAllFor("mekanismgenerators:wind_generator") 
 	removeAllFor("oritech:spawner_controller_block")
 	removeAllFor("oritech:spawner_cage_block")
 

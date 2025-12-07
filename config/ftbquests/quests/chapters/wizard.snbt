@@ -181,6 +181,11 @@
 					item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
 					type: "item"
 				}
+				{
+					id: "6581EDEDF7298F7C"
+					item: { count: 1, id: "ars_elemental:siren_charm" }
+					type: "item"
+				}
 			]
 			x: -2.0d
 			y: -1.5d

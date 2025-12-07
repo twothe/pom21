@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "engineer"
 	group: "00DDA81571B1A656"
+	icon: {
+		id: "create:cogwheel"
+	}
 	id: "0E40DB9813202450"
 	order_index: 1
 	quest_links: [ ]

@@ -327,5 +327,36 @@
 			x: -2.0d
 			y: -3.0d
 		}
+		{
+			id: "6AAF90AE7F019562"
+			tasks: [{
+				id: "04FA9F7D0DD3E4C7"
+				item: { count: 1, id: "ars_additions:warp_nexus" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61DFFFA1D72A97B6"]
+			id: "40BE18D78333B3A3"
+			tasks: [{
+				id: "242E8BCA35FD0BB4"
+				item: { count: 1, id: "minecraft:dragon_head" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "378AB2F6C50372AF"
+			tasks: [{
+				id: "2B44C35A7452AB74"
+				item: { count: 1, id: "ars_additions:ritual_locate_structure" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
 	]
 }
