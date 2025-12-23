@@ -133,104 +133,104 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
+			"minecraft:chicken": true
+			"minecraft:wandering_trader": true
 			"minecraft:axolotl": true
-			"minecraft:skeleton_horse": true
-			"ars_nouveau:drygmy": true
-			"minecraft:piglin_brute": true
-			"minecraft:wolf": true
-			"minecraft:cod": false
-			"minecolonies:campamazon": true
-			"minecraft:magma_cube": true
-			"minecraft:pufferfish": false
-			"minecraft:endermite": true
-			"minecraft:spider": true
-			"minecraft:sheep": true
-			"minecolonies:citizen": true
-			"minecraft:elder_guardian": true
-			"minecolonies:campmummy": true
-			"minecraft:skeleton": true
-			"minecraft:glow_squid": true
-			"minecraft:vindicator": true
-			"ars_nouveau:wilden_boss": true
+			"minecraft:trader_llama": true
+			"minecraft:fox": true
+			"minecraft:bat": true
+			"minecraft:wither_skeleton": true
+			"ars_nouveau:amethyst_golem": true
+			"ars_nouveau:summon_wolf": true
 			"minecraft:zombie": true
-			"minecolonies:camppharao": true
-			"minecraft:zombified_piglin": true
-			"minecraft:pig": true
-			"minecolonies:campbarbarian": true
+			"minecraft:piglin_brute": true
+			"minecolonies:campamazon": true
+			"ars_nouveau:wilden_guardian": true
+			"minecraft:witch": true
+			"ars_nouveau:drygmy": true
+			"minecraft:cat": true
 			"minecraft:frog": true
+			"minecraft:evoker": true
+			"minecraft:guardian": true
+			"minecraft:salmon": false
 			"minecraft:parrot": true
 			"ars_elemental:summon_skelehorse": true
-			"minecraft:wither": true
-			"minecraft:squid": true
-			"minecraft:bee": true
-			"minecraft:turtle": true
-			"minecolonies:camparcherbarbarian": true
-			"minecraft:camel": true
+			"ars_nouveau:whirlisprig": true
+			"minecraft:cow": true
+			"minecraft:allay": true
+			"minecraft:husk": true
+			"minecraft:cod": false
 			"minecraft:villager": true
-			"ars_nouveau:wilden_guardian": true
-			"minecraft:fox": true
-			"minecraft:goat": true
-			"minecraft:enderman": true
-			"cave_dweller:cave_dweller": true
-			"minecraft:donkey": true
-			"minecraft:pillager": true
-			"minecraft:bat": true
-			"minecraft:drowned": true
-			"minecraft:panda": true
-			"minecraft:phantom": true
-			"ars_nouveau:summon_wolf": true
-			"minecolonies:campchiefbarbarian": true
-			"minecolonies:campnorsemenchief": true
-			"minecraft:ghast": true
-			"ars_nouveau:starbuncle": true
-			"minecraft:evoker": true
-			"minecraft:ender_dragon": true
+			"minecraft:elder_guardian": true
 			"minecraft:silverfish": true
+			"minecraft:armadillo": true
+			"minecraft:tropical_fish": false
+			"minecraft:pillager": true
+			"ars_nouveau:starbuncle": true
+			"minecraft:phantom": true
+			"ars_nouveau:gift_starby": true
+			"minecolonies:campnorsemenchief": true
+			"minecraft:piglin": true
+			"minecraft:drowned": true
+			"minecolonies:campmummy": true
+			"minecraft:goat": true
 			"ars_nouveau:wilden_hunter": true
-			"minecraft:cave_spider": true
+			"minecraft:bogged": true
+			"minecolonies:visitor": true
 			"minecraft:iron_golem": true
-			"minecraft:cat": true
-			"minecraft:guardian": true
-			"ars_elemental:siren_entity": true
-			"minecraft:ravager": true
-			"minecraft:ocelot": true
-			"minecraft:wandering_trader": true
+			"minecolonies:camparchermummy": true
+			"minecraft:ghast": true
+			"minecolonies:campnorsemenarcher": true
+			"minecraft:panda": true
+			"minecraft:blaze": true
+			"minecraft:strider": true
+			"minecraft:magma_cube": true
+			"minecraft:turtle": true
+			"minecraft:ender_dragon": true
+			"minecraft:wither": true
+			"minecraft:sheep": true
+			"minecraft:donkey": true
+			"minecraft:spider": true
+			"minecraft:pig": true
+			"minecraft:wolf": true
+			"minecolonies:campamazonchief": true
 			"minecraft:zombie_villager": true
+			"minecraft:skeleton": true
+			"cave_dweller:cave_dweller": true
+			"minecraft:endermite": true
+			"ars_nouveau:wilden_stalker": true
+			"minecraft:vindicator": true
+			"minecolonies:citizen": true
+			"minecolonies:camparcherbarbarian": true
+			"minecraft:cave_spider": true
+			"minecraft:zombified_piglin": true
+			"minecolonies:camppharao": true
+			"minecraft:horse": true
+			"minecraft:hoglin": true
+			"minecraft:skeleton_horse": true
+			"minecolonies:campbarbarian": true
+			"minecraft:squid": true
+			"ars_elemental:siren_entity": true
+			"minecraft:rabbit": true
+			"ars_nouveau:summon_horse": true
+			"minecraft:glow_squid": true
+			"minecolonies:campamazonspearman": true
+			"minecolonies:campchiefbarbarian": true
+			"minecraft:enderman": true
+			"minecraft:ravager": true
 			"minecraft:slime": true
 			"minecraft:dolphin": true
-			"ars_nouveau:amethyst_golem": true
-			"minecolonies:campnorsemenarcher": true
-			"minecraft:stray": true
-			"ars_nouveau:gift_starby": true
-			"minecraft:trader_llama": true
-			"minecraft:strider": true
-			"minecraft:cow": true
-			"ars_nouveau:whirlisprig": true
-			"minecraft:allay": true
-			"minecolonies:camparchermummy": true
-			"minecolonies:campamazonspearman": true
-			"minecraft:vex": true
-			"minecraft:bogged": true
-			"minecraft:creeper": true
-			"ars_nouveau:alakarkinos": true
-			"minecraft:blaze": true
-			"minecraft:witch": true
-			"minecraft:rabbit": true
-			"ars_nouveau:wilden_stalker": true
-			"minecraft:tropical_fish": false
-			"minecraft:shulker": true
-			"minecolonies:campamazonchief": true
-			"minecraft:chicken": true
-			"minecraft:armadillo": true
-			"minecolonies:visitor": true
 			"minecolonies:campshieldmaiden": true
-			"minecraft:horse": true
-			"minecraft:husk": true
-			"minecraft:salmon": false
-			"ars_nouveau:summon_horse": true
-			"minecraft:piglin": true
-			"minecraft:wither_skeleton": true
-			"minecraft:hoglin": true
+			"minecraft:vex": true
+			"minecraft:camel": true
+			"ars_nouveau:alakarkinos": true
+			"minecraft:creeper": true
+			"minecraft:bee": true
+			"minecraft:stray": true
+			"minecraft:pufferfish": false
+			"minecraft:ocelot": true
+			"minecraft:shulker": true
+			"ars_nouveau:wilden_boss": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
