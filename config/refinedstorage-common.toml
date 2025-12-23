@@ -1,5 +1,5 @@
 #Allowed Values: STRETCH, SMALL, MEDIUM, LARGE, EXTRA_LARGE
-screenSize = "LARGE"
+screenSize = "EXTRA_LARGE"
 smoothScrolling = true
 debug = false
 # Default: 256

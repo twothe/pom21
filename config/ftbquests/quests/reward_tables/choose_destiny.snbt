@@ -30,7 +30,6 @@
 		{ id: "1FE7F0C10923BD4D", item: { count: 1, id: "mekanism:configurator" } }
 		{ id: "3F9E00E480E4504F", item: { count: 1, id: "tradingpost:trading_post" } }
 		{ id: "5DD793D68AC4A814", item: { count: 1, id: "oritech:wrench" } }
-		{ id: "368CFFD424A01C39", item: { components: { "ftbquests:missing_item": "psi:cad" }, count: 1, id: "ftbquests:missing_item" } }
 		{ id: "339BB20C4F3F544E", item: { count: 1, id: "scriptor:tome_tier1" } }
 		{ id: "30400871533FCADE", item: { components: { "patchouli:book": "justdirethings:justdirethingsbook" }, count: 1, id: "patchouli:guide_book" } }
 		{ id: "2468AE0AFE14962B", item: { count: 1, id: "farmersdelight:cooking_pot" } }
