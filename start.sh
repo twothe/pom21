@@ -5,7 +5,7 @@ set -Eeuo pipefail
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SCRIPT_DIR"
 
-JAVA_HOME="/home/two/minecraft/graalvm"
+JAVA_HOME="/home/minecraft/graalvm"
 NEOFORGE_COMMAND="$JAVA_HOME/bin/java @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.216/unix_args.txt"
 
 RUN_DIR="$SCRIPT_DIR/.run"
